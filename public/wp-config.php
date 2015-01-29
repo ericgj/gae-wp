@@ -59,14 +59,14 @@
      *
      * @since 2.6.0
      */
-    define('AUTH_KEY',         'put your unique phrase here');
-    define('SECURE_AUTH_KEY',  'put your unique phrase here');
-    define('LOGGED_IN_KEY',    'put your unique phrase here');
-    define('NONCE_KEY',        'put your unique phrase here');
-    define('AUTH_SALT',        'put your unique phrase here');
-    define('SECURE_AUTH_SALT', 'put your unique phrase here');
-    define('LOGGED_IN_SALT',   'put your unique phrase here');
-    define('NONCE_SALT',       'put your unique phrase here');
+    define('AUTH_KEY',         '0adzTk^IiWTc=z_ZOb9j+DH07>Ye6jOlic<c6kgzS0sd|q>=4.%_<AS6HoY{Q)%I');
+    define('SECURE_AUTH_KEY',  '_;+@Sz}OKyciC2DLz^18BG<;}Z:LT8>uPN`7UM_^QUn]?gi V3{:gdLcB#N,c}lj');
+    define('LOGGED_IN_KEY',    '?j?n93xR1}:k)SMA+gJ 4KWT6q>U0`XN}6LOC;Lx>a3ixZ4.-{xOi_1R?B`9F.PM');
+    define('NONCE_KEY',        'a!vb+O`Gx%V~b.ZXIt(9zZ`+{uscyOVm1}eIjAb}Tsr6o,;Nw.u(<A!l*]`EFTV,');
+    define('AUTH_SALT',        '_SMw[5d1#|*mnjR`+k:5{Q4AjiUp)Qn>]&lo+]++K>G]-@!Gn|(.:tgI2|u=i-&-');
+    define('SECURE_AUTH_SALT', ')<-HpX{J@a<l@KI^Q,?r2WV8!$)@wJ3i)AA+-Zi9uKBY&R^u?J>>0%Q}-GM?<kbG');
+    define('LOGGED_IN_SALT',   '/A3c3]?:2JrO6=~ip/~^n nL#|%l>~[OnI|p!_y!F;iC_B:AR|mbmwtL/ldj}pYf');
+    define('NONCE_SALT',       '-3N_|bY$?:vMrG_(+syaaL{X4!t+,**ZuUVv.PeoSi^+>3H|&]{{i~]xy=!Oc^|A');
 
     /**#@-*/
 
