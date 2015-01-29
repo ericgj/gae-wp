@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a9bb73eb8765335124b04971d4234839",
+    "hash": "3849e7417f1b037ec5ea020cf7b3e6e7",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -19,16 +19,16 @@
         },
         {
             "name": "composer/installers",
-            "version": "v1.0.19",
+            "version": "v1.0.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "89d77bfbee79e16653f7162c86e602cc188471db"
+                "reference": "1bff8aa77a18f3616f468ed8000cf86a5725bac3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/89d77bfbee79e16653f7162c86e602cc188471db",
-                "reference": "89d77bfbee79e16653f7162c86e602cc188471db",
+                "url": "https://api.github.com/repos/composer/installers/zipball/1bff8aa77a18f3616f468ed8000cf86a5725bac3",
+                "reference": "1bff8aa77a18f3616f468ed8000cf86a5725bac3",
                 "shasum": ""
             },
             "replace": {
@@ -70,6 +70,7 @@
                 "Hurad",
                 "MODX Evo",
                 "OXID",
+                "SMF",
                 "Thelia",
                 "WolfCMS",
                 "agl",
@@ -108,19 +109,19 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2014-11-29 01:29:17"
+            "time": "2015-01-11 03:51:11"
         },
         {
-            "name": "wpackagist-plugin/authy-two-factor-authentication",
-            "version": "2.5.4",
+            "name": "wpackagist-plugin/batcache",
+            "version": "1.2",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/authy-two-factor-authentication/",
-                "reference": "tags/2.5.4"
+                "url": "http://plugins.svn.wordpress.org/batcache/",
+                "reference": "tags/1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/authy-two-factor-authentication.2.5.4.zip",
+                "url": "http://downloads.wordpress.org/plugin/batcache.1.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -128,19 +129,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/authy-two-factor-authentication/"
+            "homepage": "https://wordpress.org/plugins/batcache/"
         },
         {
-            "name": "wpackagist-plugin/jetpack",
-            "version": "3.3",
+            "name": "wpackagist-plugin/google-app-engine",
+            "version": "1.5",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/3.3"
+                "url": "http://plugins.svn.wordpress.org/google-app-engine/",
+                "reference": "tags/1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/jetpack.3.3.zip",
+                "url": "http://downloads.wordpress.org/plugin/google-app-engine.1.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -148,19 +149,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/jetpack/"
+            "homepage": "https://wordpress.org/plugins/google-app-engine/"
         },
         {
-            "name": "wpackagist-plugin/sendgrid-email-delivery-simplified",
-            "version": "1.4.6",
+            "name": "wpackagist-plugin/memcached",
+            "version": "2.0.2",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/sendgrid-email-delivery-simplified/",
-                "reference": "trunk"
+                "url": "http://plugins.svn.wordpress.org/memcached/",
+                "reference": "tags/2.0.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/sendgrid-email-delivery-simplified.zip",
+                "url": "http://downloads.wordpress.org/plugin/memcached.2.0.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -168,27 +169,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
-        },
-        {
-            "name": "wpackagist-plugin/wpro",
-            "version": "1.0",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wpro/",
-                "reference": "tags/1.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/wpro.1.0.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wpro/"
+            "homepage": "https://wordpress.org/plugins/memcached/"
         }
     ],
     "packages-dev": [],
@@ -197,8 +178,6 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": {
-        "hhvm": "~3.2"
-    },
+    "platform": [],
     "platform-dev": []
 }
